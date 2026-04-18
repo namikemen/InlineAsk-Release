@@ -45,8 +45,8 @@ Say goodbye to "Apple Intelligence" and Siri. With **Inline Ask**, you can harne
 - **Universal `⌘K` Editing**: Trigger the AI directly inside Word, VS Code, Notes, or your Browser. Ask it to fix grammar, rewrite emails, or write code, and instantly inject the result into your active application.
 - **Agentic Capabilities**: Inline Ask can autonomously browse the web and execute AppleScript/Bash shell commands on your machine to control your Mac (like setting brightness, managing apps, or finding files).
 - **Multi-Modal Vision Support**: Paste images straight into the prompt via `Cmd+V` for instantaneous visual analysis across all providers.
-- **Provider Agnostic**: Connects instantly to `Ollama`, `OpenAI`, `Anthropic`, `Google Gemini`, `Mistral`, and `Groq`. 
-- **100% Local Inference Support**: Fully takes advantage of lightweight local models like **Gemma 4** via Ollama for zero-latency, offline, and private AI capabilities.
+- **Provider Agnostic**: Connects instantly to `Ollama`, `OpenAI`, `Anthropic`, `Google Gemini`, `Mistral`, and `Groq`. (**Recommendation**: Use the **Mistral Free API** for an excellent zero-cost cloud experience).
+- **100% Local Inference Support**: Fully takes advantage of lightweight local models via Ollama for zero-latency, offline, and private AI capabilities. (**Recommendation**: Use **Gemma 4 (Quantized)** for the best balance of speed and intelligence).
 
 ---
 
