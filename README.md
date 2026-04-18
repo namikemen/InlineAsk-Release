@@ -20,20 +20,20 @@ Say goodbye to "Apple Intelligence" and Siri. With **Inline Ask**, you can harne
 
 <table border="0">
   <tr>
-    <td width="50%"><p align="center"><b>Check Email</b></p></td>
-    <td width="50%"><p align="center"><b>Execute System Commands</b></p></td>
-  </tr>
-  <tr>
-    <td><video src="assets/mail.mp4" autoplay loop muted playsinline width="100%"></video></td>
-    <td><video src="assets/file.mp4" autoplay loop muted playsinline width="100%"></video></td>
-  </tr>
-  <tr>
     <td width="50%"><p align="center"><b>Browse Web</b></p></td>
     <td width="50%"><p align="center"><b>Rewrite & Refine</b></p></td>
   </tr>
   <tr>
-    <td><video src="assets/weather.mp4" autoplay loop muted playsinline width="100%"></video></td>
-    <td><video src="assets/rephase.mp4" autoplay loop muted playsinline width="100%"></video></td>
+    <td><img src="assets/weather.gif" width="100%" alt="Browse Web Demo"></td>
+    <td><img src="assets/rephase.gif" width="100%" alt="Rewrite & Refine Demo"></td>
+  </tr>
+  <tr>
+    <td width="50%"><p align="center"><b>Check Email</b></p></td>
+    <td width="50%"><p align="center"><b>Execute System Commands</b></p></td>
+  </tr>
+  <tr>
+    <td><img src="assets/mail.gif" width="100%" alt="Check Email Demo"></td>
+    <td><img src="assets/file.gif" width="100%" alt="Execute System Commands Demo"></td>
   </tr>
 </table>
 
