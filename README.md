@@ -12,6 +12,25 @@ Say goodbye to "Apple Intelligence" and Siri. With **Inline Ask**, you can harne
 
 ---
 
+## 🎥 Demos
+
+<table border="0">
+  <tr>
+    <td width="33%"><p align="center"><b>Fix Grammar / Draft Emails</b></p></td>
+    <td width="33%"><p align="center"><b>Execute System Commands</b></p></td>
+    <td width="33%"><p align="center"><b>Browse the Live Web</b></p></td>
+  </tr>
+  <tr>
+    <td><video src="https://raw.githubusercontent.com/namikemen/homebrew-inlineask/main/assets/mail.mov" autoplay loop muted playsinline width="100%"></video></td>
+    <td><video src="https://raw.githubusercontent.com/namikemen/homebrew-inlineask/main/assets/file.mov" autoplay loop muted playsinline width="100%"></video></td>
+    <td><video src="https://raw.githubusercontent.com/namikemen/homebrew-inlineask/main/assets/weather.mov" autoplay loop muted playsinline width="100%"></video></td>
+  </tr>
+</table>
+
+*(Note: If the videos above don't render on Github locally, click on them to download or view the raw file).*
+
+---
+
 ## ✨ Key Features
 - **Universal `⌘K` Editing**: Trigger the AI directly inside Word, VS Code, Notes, or your Browser. Ask it to fix grammar, rewrite emails, or write code, and instantly inject the result into your active application.
 - **Agentic Capabilities**: Inline Ask can autonomously browse the web and execute AppleScript/Bash shell commands on your machine to control your Mac (like setting brightness, managing apps, or finding files).
