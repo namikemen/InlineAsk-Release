@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/namikemen/homebrew-inlineask/main/assets/logo.png" width="128" alt="Inline Ask Logo">
+</p>
+
 # Inline Ask ⚡️
 <p>
   <img src="https://img.shields.io/badge/macOS-12.0+-blue?style=flat" alt="macOS Version">
@@ -16,9 +20,9 @@ Say goodbye to "Apple Intelligence" and Siri. With **Inline Ask**, you can harne
 
 <table border="0">
   <tr>
-    <td width="33%"><p align="center"><b>Fix Grammar / Draft Emails</b></p></td>
+    <td width="33%"><p align="center"><b>Check Email</b></p></td>
     <td width="33%"><p align="center"><b>Execute System Commands</b></p></td>
-    <td width="33%"><p align="center"><b>Browse the Live Web</b></p></td>
+    <td width="33%"><p align="center"><b>Browse Web</b></p></td>
   </tr>
   <tr>
     <td><video src="https://raw.githubusercontent.com/namikemen/homebrew-inlineask/main/assets/mail.mov" autoplay loop muted playsinline width="100%"></video></td>
