@@ -77,3 +77,12 @@ brew install inline-ask
 - **`⌥ + Space`**: Reveal the UI on top of your screen anywhere.
 - **`Cmd + ,`**: Open the Settings Window to input your API keys or switch models.
 - **`Shift + Enter`**: Commit and paste the generated AI result seamlessly into the active app underneath.
+
+---
+
+## 🛠 Development Status & Feedback
+**Inline Ask** is currently in **active development**. Agentic capabilities (like autonomous web browsing and system command execution) are still being refined.
+
+We highly encourage you to provide feedback and **recommend new features!** 🚀
+If you have suggestions, encounter bugs, or want to see a specific capability added, please feel free to [open an issue](../../issues/new). Your input is essential to making this tool better.
+
