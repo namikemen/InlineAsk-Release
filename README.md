@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/namikemen/homebrew-inlineask/main/assets/logo.png" width="128" alt="Inline Ask Logo">
+  <img src="assets/logo.png" width="128" alt="Inline Ask Logo">
 </p>
 
 # Inline Ask ⚡️
@@ -25,9 +25,9 @@ Say goodbye to "Apple Intelligence" and Siri. With **Inline Ask**, you can harne
     <td width="33%"><p align="center"><b>Browse Web</b></p></td>
   </tr>
   <tr>
-    <td><video src="https://raw.githubusercontent.com/namikemen/homebrew-inlineask/main/assets/mail.mov" autoplay loop muted playsinline width="100%"></video></td>
-    <td><video src="https://raw.githubusercontent.com/namikemen/homebrew-inlineask/main/assets/file.mov" autoplay loop muted playsinline width="100%"></video></td>
-    <td><video src="https://raw.githubusercontent.com/namikemen/homebrew-inlineask/main/assets/weather.mov" autoplay loop muted playsinline width="100%"></video></td>
+    <td><video src="assets/mail.mov" autoplay loop muted playsinline width="100%"></video></td>
+    <td><video src="assets/file.mov" autoplay loop muted playsinline width="100%"></video></td>
+    <td><video src="assets/weather.mov" autoplay loop muted playsinline width="100%"></video></td>
   </tr>
 </table>
 
