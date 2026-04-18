@@ -20,14 +20,20 @@ Say goodbye to "Apple Intelligence" and Siri. With **Inline Ask**, you can harne
 
 <table border="0">
   <tr>
-    <td width="33%"><p align="center"><b>Check Email</b></p></td>
-    <td width="33%"><p align="center"><b>Execute System Commands</b></p></td>
-    <td width="33%"><p align="center"><b>Browse Web</b></p></td>
+    <td width="50%"><p align="center"><b>Check Email</b></p></td>
+    <td width="50%"><p align="center"><b>Execute System Commands</b></p></td>
   </tr>
   <tr>
-    <td><video src="assets/mail.mov" autoplay loop muted playsinline width="100%"></video></td>
-    <td><video src="assets/file.mov" autoplay loop muted playsinline width="100%"></video></td>
-    <td><video src="assets/weather.mov" autoplay loop muted playsinline width="100%"></video></td>
+    <td><video src="assets/mail.mp4" autoplay loop muted playsinline width="100%"></video></td>
+    <td><video src="assets/file.mp4" autoplay loop muted playsinline width="100%"></video></td>
+  </tr>
+  <tr>
+    <td width="50%"><p align="center"><b>Browse Web</b></p></td>
+    <td width="50%"><p align="center"><b>Rewrite & Refine</b></p></td>
+  </tr>
+  <tr>
+    <td><video src="assets/weather.mp4" autoplay loop muted playsinline width="100%"></video></td>
+    <td><video src="assets/rephase.mp4" autoplay loop muted playsinline width="100%"></video></td>
   </tr>
 </table>
 
