@@ -42,7 +42,7 @@ Say goodbye to "Apple Intelligence" and Siri. With **Inline Ask**, you can harne
 ---
 
 ## ✨ Key Features
-- **Universal `⌘K` Editing**: Trigger the AI directly inside Word, VS Code, Notes, or your Browser. Ask it to fix grammar, rewrite emails, or write code, and instantly inject the result into your active application.
+- **Universal `⌘K` Editing**: Trigger the AI directly inside Word, VS Code, Notes, or your Browser. Ask it to fix grammar, rewrite emails, translate, or write code, and instantly inject the result into your active application.
 - **Agentic Capabilities**: Inline Ask can autonomously browse the web and execute AppleScript/Bash shell commands on your machine to control your Mac (like setting brightness, managing apps, or finding files).
 - **Multi-Modal Vision Support**: Paste images straight into the prompt via `Cmd+V` for instantaneous visual analysis across all providers.
 - **Provider Agnostic**: Connects instantly to `Ollama`, `OpenAI`, `Anthropic`, `Google Gemini`, `Mistral`, and `Groq`. (**Recommendation**: Use the **Mistral Free API** for an excellent zero-cost cloud experience).
@@ -70,6 +70,35 @@ brew install inline-ask
    xattr -cr /Applications/InlineAsk.app
    ```
 5. Double click `InlineAsk.app` to launch it. Note: you won't see a Dock icon because this is an invisible background Menu-bar agent! 
+
+---
+
+## ⚙️ Setup Guide
+
+### Local (Recommended): Ollama + Gemma
+For private and fast local inference, install Ollama and use a small Gemma model.
+
+1. Install Ollama:
+   - macOS: [https://ollama.com/download](https://ollama.com/download) or:
+   ```bash
+   brew install ollama
+   ```
+   - Windows: install from [https://ollama.com/download](https://ollama.com/download), then open **PowerShell**.
+2. Start Ollama (if it is not already running).
+3. Pull a lightweight model (recommended for most laptops):
+   ```bash
+   ollama pull gemma3:2b
+   ```
+   You can also try a 3B-class model if your machine can handle it.
+4. Open Inline Ask settings (`Cmd + ,` on macOS, or Settings from the app menu on Windows) and set provider/model to Ollama + your pulled model.
+
+### API Providers: Add Key in Settings
+If you prefer cloud models (OpenAI, Anthropic, Gemini, Mistral, Groq):
+
+1. Open settings (`Cmd + ,` on macOS, or Settings from the app menu on Windows).
+2. Select your provider.
+3. Paste your API key in the corresponding key field.
+4. Save and run a quick prompt to confirm it works.
 
 ---
 
