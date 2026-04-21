@@ -100,6 +100,20 @@ If you prefer cloud models (OpenAI, Anthropic, Gemini, Mistral, Groq):
 3. Paste your API key in the corresponding key field.
 4. Save and run a quick prompt to confirm it works.
 
+### Free API Keys (Recommended Cloud Options)
+
+#### Mistral (Free Tier)
+1. Go to [https://console.mistral.ai/](https://console.mistral.ai/) and create an account.
+2. Open the API keys page and create a new key.
+3. Copy the key and paste it into Inline Ask Settings under `Mistral`.
+4. Select a Mistral model and test with a short prompt.
+
+#### Google Gemini (Free Tier)
+1. Go to [https://aistudio.google.com/](https://aistudio.google.com/) and sign in.
+2. Click **Get API key** (or open API key management) and create a key.
+3. Copy the key and paste it into Inline Ask Settings under `Gemini`.
+4. Select a Gemini model and test with a short prompt.
+
 ---
 
 ## 💥 Keyboard Shortcuts
