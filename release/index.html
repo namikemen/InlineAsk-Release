@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Ask — AI Everywhere</title>
+    <meta name="description" content="Inline Ask brings a cursor-style inline AI assistant to any app on macOS and Windows with a simple shortcut.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="gradient-bg"></div>
+    
+    <header>
+        <div class="logo">Inline Ask</div>
+        <nav class="nav-links">
+            <a href="#features">Features</a>
+            <a href="https://github.com/namikemen/inline-ask" target="_blank">GitHub</a>
+            <a href="#download" class="btn btn-secondary" style="display: inline-flex; padding: 0.5rem 1.5rem; margin-left: 1rem;">Download</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>AI Assistant, Everywhere.</h1>
+            <p>Bring the power of LLMs to every application on your desktop. One shortcut, infinite possibilities.</p>
+            
+            <div class="cta-group" id="download">
+                <a href="#" class="btn btn-primary">
+                    <i data-lucide="apple"></i>
+                    Download for macOS
+                </a>
+                <a href="#" class="btn btn-secondary">
+                    <i data-lucide="layout"></i>
+                    Download for Windows
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img src="assets/hero.png" alt="Inline Ask Interface Mockup">
+            </div>
+        </section>
+
+        <section class="shortcuts">
+            <h2>Instant Access</h2>
+            <p>The magic happens with a single touch.</p>
+            <div class="shortcut-box">
+                <kbd>⌥</kbd> + <kbd>Space</kbd>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="feature-card">
+                <i data-lucide="zap"></i>
+                <h3>Global Shortcut</h3>
+                <p>Summon your assistant in any text area, code editor, or browser with a system-wide hotkey.</p>
+            </div>
+            <div class="feature-card">
+                <i data-lucide="cpu"></i>
+                <h3>Local & Cloud</h3>
+                <p>Support for Ollama (local), OpenAI, Anthropic, Gemini, Groq, and more. Your choice of intelligence.</p>
+            </div>
+            <div class="feature-card">
+                <i data-lucide="terminal"></i>
+                <h3>Agent Mode</h3>
+                <p>Go beyond chat. Run shell commands, execute AppleScripts, and search the web autonomously.</p>
+            </div>
+            <div class="feature-card">
+                <i data-lucide="shield-check"></i>
+                <h3>Privacy First</h3>
+                <p>Run entirely offline with local models or securely connect to your preferred providers.</p>
+            </div>
+            <div class="feature-card">
+                <i data-lucide="mouse-pointer-2"></i>
+                <h3>PopClip Style</h3>
+                <p>Quick contextual actions available on selection. Transform text instantly where you type.</p>
+            </div>
+            <div class="feature-card">
+                <i data-lucide="box"></i>
+                <h3>Cross Platform</h3>
+                <p>Built with Tauri and Rust for a lightweight, native experience on both macOS and Windows.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Inline Ask. Built with Tauri & Rust.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
