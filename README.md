@@ -21,11 +21,11 @@ Say goodbye to "Apple Intelligence" and Siri. With **Inline Ask**, you can harne
 <table border="0">
   <tr>
     <td width="50%"><p align="center"><b>Browse Web</b></p></td>
-    <td width="50%"><p align="center"><b>Rewrite & Refine</b></p></td>
+    <td width="50%"><p align="center"><b>Translate</b></p></td>
   </tr>
   <tr>
     <td><img src="assets/weather.gif" width="100%" alt="Browse Web Demo"></td>
-    <td><img src="assets/rephase.gif" width="100%" alt="Rewrite & Refine Demo"></td>
+    <td><img src="assets/Popup.gif" width="100%" alt="Translate Demo"></td>
   </tr>
   <tr>
     <td width="50%"><p align="center"><b>Check Email</b></p></td>
