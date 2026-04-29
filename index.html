@@ -5,90 +5,182 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inline Ask — AI Everywhere</title>
     <meta name="description" content="Inline Ask brings a cursor-style inline AI assistant to any app on macOS and Windows with a simple shortcut.">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest" defer></script>
 </head>
 <body>
     <div class="gradient-bg"></div>
-    
-    <header>
+
+    <header id="header">
         <div class="logo">Inline Ask</div>
         <nav class="nav-links">
             <a href="#features">Features</a>
-            <a href="https://github.com/namikemen/inline-ask" target="_blank">GitHub</a>
-            <a href="#download" class="btn btn-secondary" style="display: inline-flex; padding: 0.5rem 1.5rem; margin-left: 1rem;">Download</a>
+            <a href="#demo">Demo</a>
+            <a href="https://github.com/namikemen/inline-ask" target="_blank" rel="noopener">GitHub</a>
+            <a href="#download" class="btn btn-secondary">Download</a>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <h1>AI Assistant, Everywhere.</h1>
+            <div class="hero-badge">
+                <span class="dot"></span>
+                Now available on macOS & Windows
+            </div>
+            <h1>AI Assistant,<br>Everywhere.</h1>
             <p>Bring the power of LLMs to every application on your desktop. One shortcut, infinite possibilities.</p>
-            
+
             <div class="cta-group" id="download">
-                <a href="https://github.com/namikemen/InlineAsk-Release/releases" class="btn btn-primary" target="_blank">
+                <a href="https://github.com/namikemen/InlineAsk-Release/releases" class="btn btn-primary" target="_blank" rel="noopener">
                     <i data-lucide="apple"></i>
                     Download for macOS
                 </a>
-                <a href="https://github.com/namikemen/InlineAsk-Release/releases" class="btn btn-secondary" target="_blank">
-                    <i data-lucide="layout"></i>
+                <a href="https://github.com/namikemen/InlineAsk-Release/releases" class="btn btn-secondary" target="_blank" rel="noopener">
+                    <i data-lucide="monitor"></i>
                     Download for Windows
                 </a>
             </div>
 
-            <div class="hero-image">
-                <img src="assets/hero.png" alt="Inline Ask Interface Mockup">
+            <div class="hero-image" id="heroImage">
+                <img src="assets/hero.png" alt="Inline Ask Interface Mockup" loading="eager">
             </div>
         </section>
 
-        <section class="shortcuts">
+        <section class="shortcuts reveal">
             <h2>Instant Access</h2>
             <p>The magic happens with a single touch.</p>
             <div class="shortcut-box">
-                <kbd>⌥</kbd> + <kbd>Space</kbd>
+                <kbd>&#x2325;</kbd> + <kbd>Space</kbd>
             </div>
         </section>
 
-        <section class="features" id="features">
+        <section class="demo-showcase" id="demo">
+            <div class="section-header reveal">
+                <span class="section-label">See it in action</span>
+                <h2>What you can do<br>with Inline Ask</h2>
+                <p>From quick edits to complex automation — everything happens right where you type.</p>
+            </div>
+
+            <div class="bento-grid reveal-stagger">
+                <div class="bento-card span-8" data-gif="assets/Popup.gif" data-label="Universal Popup">
+                    <div class="card-media">
+                        <img src="assets/Popup.gif" alt="Universal popup interface" loading="lazy">
+                    </div>
+                    <div class="card-label">
+                        <i data-lucide="sparkles"></i> Summon anywhere with &#x2325; + Space
+                    </div>
+                </div>
+
+                <div class="bento-card span-4" data-gif="assets/summary.gif" data-label="Smart Summaries">
+                    <div class="card-media">
+                        <img src="assets/summary.gif" alt="Text summarization" loading="lazy">
+                    </div>
+                    <div class="card-label">
+                        <i data-lucide="file-text"></i> Summarize any text
+                    </div>
+                </div>
+
+                <div class="bento-card span-5" data-gif="assets/write-edit.gif" data-label="Writing & Editing">
+                    <div class="card-media">
+                        <img src="assets/write-edit.gif" alt="Writing and editing assistance" loading="lazy">
+                    </div>
+                    <div class="card-label">
+                        <i data-lucide="pencil"></i> Write, edit, and refine text
+                    </div>
+                </div>
+
+                <div class="bento-card span-7" data-gif="assets/reminder.gif" data-label="Smart Reminders">
+                    <div class="card-media">
+                        <img src="assets/reminder.gif" alt="Reminder creation" loading="lazy">
+                    </div>
+                    <div class="card-label">
+                        <i data-lucide="bell"></i> Create reminders from natural language
+                    </div>
+                </div>
+
+                <div class="bento-card span-4" data-gif="assets/weather.gif" data-label="Weather">
+                    <div class="card-media">
+                        <img src="assets/weather.gif" alt="Weather information" loading="lazy">
+                    </div>
+                    <div class="card-label">
+                        <i data-lucide="cloud-sun"></i> Check weather instantly
+                    </div>
+                </div>
+
+                <div class="bento-card span-4" data-gif="assets/mail.gif" data-label="Email">
+                    <div class="card-media">
+                        <img src="assets/mail.gif" alt="Email composition" loading="lazy">
+                    </div>
+                    <div class="card-label">
+                        <i data-lucide="mail"></i> Compose emails with AI
+                    </div>
+                </div>
+
+                <div class="bento-card span-4" data-gif="assets/file.gif" data-label="File Operations">
+                    <div class="card-media">
+                        <img src="assets/file.gif" alt="File operations" loading="lazy">
+                    </div>
+                    <div class="card-label">
+                        <i data-lucide="folder"></i> Manage files with commands
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features reveal-stagger" id="features">
             <div class="feature-card">
-                <i data-lucide="zap"></i>
+                <div class="card-icon"><i data-lucide="zap"></i></div>
                 <h3>Global Shortcut</h3>
                 <p>Summon your assistant in any text area, code editor, or browser with a system-wide hotkey.</p>
             </div>
             <div class="feature-card">
-                <i data-lucide="cpu"></i>
-                <h3>Local & Cloud</h3>
+                <div class="card-icon"><i data-lucide="cpu"></i></div>
+                <h3>Local & Cloud Models</h3>
                 <p>Support for Ollama (local), OpenAI, Anthropic, Gemini, Groq, and more. Your choice of intelligence.</p>
             </div>
             <div class="feature-card">
-                <i data-lucide="terminal"></i>
+                <div class="card-icon"><i data-lucide="terminal"></i></div>
                 <h3>Agent Mode</h3>
                 <p>Go beyond chat. Run shell commands, execute AppleScripts, and search the web autonomously.</p>
             </div>
             <div class="feature-card">
-                <i data-lucide="shield-check"></i>
+                <div class="card-icon"><i data-lucide="shield-check"></i></div>
                 <h3>Privacy First</h3>
                 <p>Run entirely offline with local models or securely connect to your preferred providers.</p>
             </div>
             <div class="feature-card">
-                <i data-lucide="mouse-pointer-2"></i>
-                <h3>PopClip Style</h3>
-                <p>Quick contextual actions available on selection. Transform text instantly where you type.</p>
+                <div class="card-icon"><i data-lucide="mouse-pointer-2"></i></div>
+                <h3>Contextual Actions</h3>
+                <p>Quick actions on text selection. Transform, translate, or explain text instantly where you type.</p>
             </div>
             <div class="feature-card">
-                <i data-lucide="box"></i>
+                <div class="card-icon"><i data-lucide="box"></i></div>
                 <h3>Cross Platform</h3>
                 <p>Built with Tauri and Rust for a lightweight, native experience on both macOS and Windows.</p>
             </div>
         </section>
+
+        <section class="cta-section reveal">
+            <h2>Ready to try it?</h2>
+            <p>Free and open source. Download now and start using AI everywhere you type.</p>
+            <a href="https://github.com/namikemen/InlineAsk-Release/releases" class="btn btn-primary" target="_blank" rel="noopener">
+                <i data-lucide="download"></i>
+                Get Inline Ask
+            </a>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Inline Ask. Built with Tauri & Rust.</p>
+        <p>&copy; 2026 Inline Ask. Built with Tauri &amp; Rust.</p>
     </footer>
+
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <img class="lightbox-media" id="lightboxMedia" alt="">
+    </div>
 
     <script src="script.js"></script>
     <script>
